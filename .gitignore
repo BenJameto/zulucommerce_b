@@ -1,0 +1,40 @@
+GNU nano 7.2                       .gitignore                           M     
+# 📦 Dependency directories
+# ====================
+/backend/node_modules/
+/frontend/node_modules/
+
+# ====================
+# 📡 Coverage
+# ====================
+coverage/
+*.lcov
+
+# ====================
+# 🎯 Build outputs
+# ====================
+/backend/dist/
+/frontend/build/
+
+# ====================
+# 🐍 Python (Si usas algún script para K8s)
+# ====================
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ====================
+# 💣 System Files
+# ====================
+.DS_Store
+Thumbs.db
+
+# ====================
+# 🛡 VSCode Settings
+# ====================
+.vscode/
+*.code-workspace
+#=====================
+# archivos de texto
+#=====================
+*.txt
